@@ -1,0 +1,441 @@
+
+@media (max-width: 1920px) {
+.cart-bubble {
+    background-color: yellow;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 0px 2px 1px 2px;
+    position: absolute;
+    right: -35px;
+    top: 29px;
+    color: orangered;
+}
+}
+
+
+@media (max-width: 1200px) {
+
+    #hero {
+        width: 100%;
+    }
+
+    #pokemones {
+        width: 100%;
+    }
+
+    .pokemones-titulo {
+        width: 90%;
+    }
+
+
+
+
+    #pokemones .products img {
+        width: 160px;
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60%;
+        margin-bottom: 5%;
+        margin-right: 20%;
+    }
+
+    .cart-bubble {
+        background-color: yellow;
+        font-size: 12px;
+        border-radius: 10px;
+        padding: 0px 2px 1px 2px;
+        position: absolute;
+        right: -35px;
+        top: 29px;
+        color: orangered;
+    }
+
+
+    @media (max-width: 992px) {
+        .navbar {
+            gap: 10px;
+        }
+
+        .navbar-list {
+            position: absolute;
+            top: 63px;
+            right: -80px;
+            padding: 5px;
+            gap: 15px;
+            height: 200px;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            transform: translateX(200%);
+            transition: all 0.6s ease;
+            background: #7F7FD5;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to bottom, rgb(115, 224, 255), #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to bottom, rgb(115, 224, 255), #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            
+        }
+
+        .open-menu {
+            transform: translateY(0%);
+            transition: all 0.7s ease;
+            border-bottom: #fefefe solid 5px;
+    }
+
+        .navbar-list a {
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .menu-label {
+            display: flex;
+            order: 2;
+            cursor: pointer;
+        }
+
+        .menu-label img {
+            height: 50px;
+            width: 55px
+        }
+
+        .open-menu {
+            display: flex;
+        }
+
+
+        .menu-icon,
+        .logo {
+            z-index: 3;
+        }
+
+        .menu-icon {
+            width: 15px;
+            height: 15px;
+        }
+
+
+
+
+
+        #hero {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(/asset/img/backgrounds/wallpaperMain.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+        .cart-bubble {
+            background-color: yellow;
+            font-size: 12px;
+            border-radius: 10px;
+            padding: 0px 2px 1px 2px;
+            position: absolute;
+            right: -9px;
+            top: 4px;
+            color: orangered;
+        }
+
+        .cart {
+            position: absolute;
+            top: 64px;
+            right: -79px;
+        }
+
+
+        .categories {
+            width: 95%;
+        }
+
+
+        .hero-info {
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .hero-info h1 {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 90%;
+            max-width: 600px;
+            min-width: unset;
+        }
+
+        .hero-info p {
+            width: 80%;
+            font-size: 2.3rem;
+        }
+
+        .logo-pikachu {
+            display: none;
+        }
+
+        #clases {
+            width: 100%;
+        }
+
+        #clases .categories {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+
+        #pokemones {
+            width: 100%;
+        }
+
+        .pokemones-titulo {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+
+        .pokemon-container {
+            width: 90%;
+        }
+
+
+        #pokemones .products img {
+            width: 160px;
+            height: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 60%;
+            margin-bottom: 5%;
+            margin-right: 20%;
+        }
+
+        #pokemones .products button {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 5px 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            background: rgb(78, 175, 94);
+            color: white;
+            cursor: pointer;
+        }
+
+        #pokemones .products-btn button:hover {
+            background: rgb(20, 234, 241);
+            color: white;
+        }
+
+        #pokemones .products h3 {
+            color: white;
+            background-color: black;
+            border-radius: 5px;
+            width: 110%;
+        }
+
+        #pokemones button {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            background: red;
+            color: white;
+            cursor: pointer;
+        }
+
+        #pokemones button:hover {
+            background: rgb(78, 175, 94);
+            color: white;
+        }
+
+
+
+
+    .logo__nails {
+        display: none;
+    }
+
+    @media (max-width: 890px) {
+        .categories {
+            max-width: 500px;
+        }
+    }
+
+
+    @media (max-width: 768px) {
+
+        .hero-info h1 {
+            font-size: 55px;
+        }
+
+        .hero-info span {
+            font-size: 30px;
+        }
+
+        .hero-info p {
+            font-size: 30px;
+        }
+
+        #pokemones {
+            width: 100%;
+            padding-top: 70px;
+        }
+
+        .pokemones-titulo {
+            width: 90%;
+            padding-top: 70px;
+        }
+
+        #contacto {
+            display: flex;
+            flex-direction: column;
+        }
+        .data-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .data-contacto {
+            height: 300px;
+        }
+
+        .data-img {
+            display: none;
+        }
+    }
+
+
+    @media (max-width: 576px) {
+        header {
+            padding: 30px 30px;
+        }
+
+
+        .navbar-list {
+            position: absolute;
+            top: 65px;
+            right: -30px;
+            }
+
+        .cart {
+            position: absolute;
+            top: 65px;
+            right: -35px;
+        }
+
+        .hero-info {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            margin: auto;
+        }
+
+        .hero-info h1 {
+            width: 90%;
+            max-width: 600px;
+            min-width: unset;
+            font-size: 50px;
+        }
+
+        .hero-info p {
+            width: 90%;
+            max-width: 600px;
+        }
+
+        #clases .categories {
+            max-width: 400px;
+        }
+        #clases .category {
+            width: 150px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border-radius: 15px;
+            gap: 30px;
+            border: #fefefe solid 2px;
+            cursor: pointer;
+        }
+
+
+
+        #pokemones {
+            width: 100%;
+        }
+
+        .pokemones-titulo {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+
+
+        #pokemones p {
+            font-size: 24px;
+        }
+
+        #pokemones h2 {
+            font-size: 45px;
+        }
+
+
+
+        #contacto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+
+        .formulario {
+            width: 90%;
+        }
+
+        .conteinter-cajas {
+            width: 100%;
+        }
+
+        footer {
+            width: 100%;
+        }
+
+        .footer-img-conteiner {
+            width: 30%;
+        }
+
+        .footer-banner {
+            padding-left: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+        }
+

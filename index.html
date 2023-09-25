@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/mediaquaris/mediaquaris.css">
+    <title> Pokemarket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="asset/css/animaciones.css">
+</head>
+
+<body>
+
+    <header id="home">
+        <img src="asset/img/backgrounds/pokelogo2.png" alt="" class="logo">
+        <nav class="navbar">
+
+            <div class="menu-label">
+                <img src="asset/img/icons/menu-burger-fachero.png" alt="" class="menu-icon" />
+            </div>
+
+            <ul class="navbar-list">
+                <li><a href="#hero">INICIO</a></li>
+                <li><a href="#servicios">SERVICIOS</a></li>
+                <li><a href="#clases">CLASES</a></li>
+                <li><a href="#pokemones">POKEMONES</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+
+            </ul>
+
+            <label for="cart-toggle" class="cart-label">
+                <img src="asset/img/pokemones/pokecarrito.png" alt="" class="cart-icon" />
+                <div class="cart-bubble">0</div>
+            </label>
+            <div class="cart">
+                <h3>Tus Pokemones</h3>
+                <div class="cart-container">
+                    <div class="mensaje-vacio"></div>
+                </div>
+                <div class="cart-total">
+                    <p>Total</p>
+                    <span class="total">$0</span>
+                </div>
+                <div class="cart-btn">
+                    <button class="cart-btn-delete">Vaciar</button>
+                    <button class="cart-btn-buy">Comprar</button>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+
+
+
+    <main>
+        <section id="hero">
+            <div class="hero-info">
+                <h1>Pokemarket <br> <span>Compralos todos!</span></h1>
+                <p> Aqui podras comprar todos los pokemones que te falten para ser el mejor</p>
+            </div>
+            <div class="hero-img">
+                <img src="asset/img/backgrounds/pikachulogo.png" alt="" class="logo-pikachu">
+            </div>
+        </section>
+
+
+        <section id="servicios">
+            <h2>Nuestros servicios</h2>
+            <div class="service-conteiner">
+                <div class="service-card">
+                    <img src="asset/img/backgrounds/card-exclusivos.png" alt="calidad" class="service_icons">
+                    <p>En nuesta tienda vas a poder encontrar pokemons exclusivos de todas las regiones  muy dificiles de obtener </p>
+                </div>
+                <div class="service-card">
+                    <img src="asset/img/backgrounds/card-pagos2.jpg" alt="talles" class="service_icons">
+                    <p>
+                        Aceptamos todas las tarjetas y demas de todos los medios de pago digitales
+                    </p>
+                </div>
+                <div class="service-card">
+                    <img src="asset/img/backgrounds/card-regalos.jpg" alt="tiempo" class="service_icons">
+                    <p>Regalá de manera instantánea, a quién más quieras, y sorprendelo con su pokemon favorito.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="clases">
+            <h2 class="">Clases Destacadas</h2>
+            <div class="categories">
+                <button class="category active" id="todos">
+                </button>
+                <button class="category" id="agua" data-category="Agua">
+                </button>
+                <button class="category" id="planta" data-category="Planta">
+                </button>
+                <button class="category" id="fuego" data-category="Fuego">
+                </button>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <section id="pokemones">
+            <div class="pokemones-titulo">
+                <h2>Pokemones Destacados</h2><br>
+                <p>Elegi entre todas estas clases a tu compañero.</p>
+            </div>
+            <div class="pokemon-container"></div>
+            <button class="ver-mas_btn">+</button>
+        </section>
+
+
+
+
+
+
+
+        <section id="contacto">
+            <h2 class="contactanos"> Dejanos tu consulta!</h2> <br>
+            <div class="data-form">
+                <div class="info-contacto">
+                    <div class="data-contacto">
+                        <h2>Nuestras redes</h2>
+                        <div class="insta">
+                            <img src="asset/img/icons/instagram.png" alt="instagram" class="footer-icon">
+                            <a href="https://www.instagram.com/facuthompson/" target="_blank">Pokemarket</a>
+                        </div>
+                        <div class="whatsapp">
+                            <img src="asset/img/icons/whatsapp.png" alt="whatsapp" class="footer-icon">
+                            <p>3412725888</p>
+                        </div>
+                        <div class="youtube">
+                            <img src="asset/img/icons/youtube.png" alt="youtube" class="footer-icon">
+                            <a href="https://www.youtube.com/watch?v=uDIoEbbFKAY&ab_channel=PkmnBattlesChannel"
+                                target="_blank">Pokemarket</a>
+                        </div>
+                        <img src="asset/img/backgrounds/miaulogo.png" alt="" class="data-img">
+                    </div>
+                </div>
+
+                <div class="formulario">
+                    <form  id="form" novalidate>
+                        <div class="conteinter-form">
+                            <div class="conteiner-cajas">
+                                <div class="cajas-form">
+                                    <label for="Nombre">Nombre</label>
+                                    <input type="text" id="nombre" placeholder="pokemarket" autocomplete="off" required>
+                                    <small> </small>
+                                </div><br>
+                                <div class="cajas-form">
+                                    <label for="Telefono">Telefono</label>
+                                    <input type="tel" id="telefono" placeholder="341" autocomplete="off"  required>
+                                    <small> </small>
+                                </div><br>
+                                <div class="cajas-form">
+                                    <label for="Email">Email</label>
+                                    <input type="email" id="email" placeholder="@poke.com" required>
+                                    <small> </small>
+                                </div><br>
+                                <div class="cajas-form">
+                                    <textarea name="text" id="textarea" cols="20" rows="10"
+                                        placeholder="hola..">tu mensaje</textarea>
+                                </div><br>
+                            </div>
+                            <input type="submit"  class="btn-form" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <footer>
+            <div class="modal"></div>
+            <div class="footer-img-conteiner">
+                <img src="asset/img/backgrounds/pokelogo2.png" alt="banner" class="footer-banner">
+            </div>
+            <h3>© Pokemarket 2023</h3>
+        </footer>
+    </main>
+</body>
+
+<script src="asset/js/data.js"></script>
+<script src="asset/js/index.js"></script>
+
+</html>
