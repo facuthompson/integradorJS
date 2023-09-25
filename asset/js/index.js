@@ -87,6 +87,7 @@ const isInactiveFilterBtn = (element) => {
 const changeFilterState = (btn) => {
     appState.activeFilter = btn.dataset.category;
     changeBtnActiveState(appState.activeFilter);
+    setShowMoreVisibility();
 };
 
 const changeBtnActiveState = (selectedCategory) => {
@@ -104,6 +105,14 @@ const renderFilteredProducts = () => {
     const FilteredProducts = productsData.filter(
         (product) => product.category === appState.activeFilter);
     renderPokemones(FilteredProducts);
+};
+
+const setShowMoreVisibility = () => {
+    if(!appState.activeFilter) {
+        showMoreBtn.classList.remove("hidden");
+        return;
+    }
+    showMoreBtn.classList.add("hidden");
 };
 
 

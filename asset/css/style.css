@@ -385,6 +385,10 @@ main {
     cursor: pointer;
 }
 
+#clases  .active {
+    border: gold solid 3px;
+}
+
 
 
 #fuego {
